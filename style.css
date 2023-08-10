@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
   text-decoration: none;
 }
 
 header {
   background-color: #1f2937;
   color: #F9Faf8;
+  overflow: hidden;
 }
 
 .nav-items {
@@ -69,4 +69,34 @@ header {
 .top-content .img-container img {
   width: 100%;
   height: 100%;
+}
+
+h2 {
+  padding: 3vh;
+  text-align: center;
+}
+
+section {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  height: 400px;
+  width: 100%;
+}
+section .item {
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  border: #3882f6 3px solid;
+}
+section .item img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: 100%;
+}
+section p {
+  padding-top: 20px;
+  overflow-wrap: break-word;
+  max-width: 200px;
 }/*# sourceMappingURL=style.css.map */
