@@ -112,8 +112,8 @@ section p {
   justify-content: center;
   width: 100%;
   align-items: center;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 13vw;
+  padding-right: 13vw;
   gap: 2vh;
 }
 .quote-container h4 {
@@ -127,4 +127,37 @@ footer {
   height: 7vh;
   text-align: center;
   padding-top: 3vh;
+}
+
+.sign-up {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+}
+.sign-up .box-signup {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 75vw;
+  height: 20vh;
+  background-color: #3882f6;
+  border-radius: 10px;
+  gap: 10vw;
+}
+.sign-up .box-signup div h3 {
+  font-size: 1.8rem;
+}
+.sign-up .box-signup div h5 {
+  font-size: 1.2rem;
+}
+.sign-up .box-signup button {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #3882f6;
+  color: #e5e7eb;
 }/*# sourceMappingURL=style.css.map */
