@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-items {
+  padding-top: 1vh;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items h3 {
+  font-size: 1.7rem;
+}
+.nav-items ul li {
+  list-style: none;
+  display: inline;
+  font-size: 1.4rem;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
