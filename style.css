@@ -9,6 +9,7 @@ header {
   background-color: #1f2937;
   color: #F9Faf8;
   overflow: hidden;
+  padding-top: 2vh;
 }
 
 .nav-items {
@@ -99,4 +100,12 @@ section p {
   padding-top: 20px;
   overflow-wrap: break-word;
   max-width: 200px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #F9Faf8;
+  height: 7vh;
+  text-align: center;
+  padding-top: 3vh;
 }/*# sourceMappingURL=style.css.map */
